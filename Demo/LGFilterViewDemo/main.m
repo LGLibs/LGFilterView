@@ -1,9 +1,9 @@
 //
-//  main.m
-//  LGFilterViewDemo
+// main.m
+// LGFilterViewDemo
 //
-//  Created by Friend_LGA on 30.03.15.
-//  Copyright (c) 2015 Grigory Lutkov. All rights reserved.
+// Created by Friend_LGA on 30.03.15.
+// Copyright (c) 2015 Grigorii Lutkov <grigorii@lutkov.dev>
 //
 
 #import <UIKit/UIKit.h>

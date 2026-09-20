@@ -4,23 +4,24 @@ View shows and applies different filters in iOS app.
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGFilterView/Preview.gif" width="218"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGFilterView/1.png" width="218"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGFilterView/2.png" width="218"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGFilterView/3.png" width="218"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGFilterView/4.png" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGFilterView/Preview.gif" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGFilterView/1.png" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGFilterView/2.png" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGFilterView/3.png" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGFilterView/4.png" width="218"/>
 
 ## Installation
 
 ### With source code
 
-[Download repository](https://github.com/Friend-LGA/LGFilterView/archive/master.zip), then add [LGFilterView directory](https://github.com/Friend-LGA/LGFilterView/blob/master/LGFilterView/) to your project.
+[Download repository](https://github.com/LGLibs/LGFilterView/archive/master.zip), then add [LGFilterView directory](./LGFilterView) to your project.
 
 ### With CocoaPods
 
-CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. To install with cocoaPods, follow the "Get Started" section on [CocoaPods](https://cocoapods.org/).
+CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. To install with cocoaPods, follow the "Get Started" section on [CocoaPods](https://cocoapods.org).
 
 #### Podfile
+
 ```ruby
 platform :ios, '6.0'
 pod 'LGFilterView', '~> 1.0.0'
@@ -28,11 +29,12 @@ pod 'LGFilterView', '~> 1.0.0'
 
 ### With Carthage
 
-Carthage is a lightweight dependency manager for Swift and Objective-C. It leverages CocoaTouch modules and is less invasive than CocoaPods. To install with carthage, follow the instruction on [Carthage](https://github.com/Carthage/Carthage/).
+Carthage is a lightweight dependency manager for Swift and Objective-C. It leverages CocoaTouch modules and is less invasive than CocoaPods. To install with carthage, follow the instruction on [Carthage](https://github.com/Carthage/Carthage).
 
 #### Cartfile
+
 ```
-github "Friend-LGA/LGFilterView" ~> 1.0.0
+github "LGLibs/LGFilterView" ~> 1.0.0
 ```
 
 ## Usage
@@ -52,7 +54,7 @@ You have several methods for initialization:
 - (instancetype)initWithTitles:(NSArray *)titles;
 ```
 
-More init methods you can find in [LGFilterView.h](https://github.com/Friend-LGA/LGFilterView/blob/master/LGFilterView/LGFilterView.h)
+More init methods you can find in [LGFilterView.h](./LGFilterView/LGFilterView.h)
 
 ### Handle actions
 
@@ -95,8 +97,16 @@ kLGFilterViewDidDismissNotification;
 
 ### More
 
-For more details try Xcode [Demo project](https://github.com/Friend-LGA/LGFilterView/blob/master/Demo) and see [LGFilterView.h](https://github.com/Friend-LGA/LGFilterView/blob/master/LGFilterView/LGFilterView.h)
+For more details try [Xcode Demo Project](./Demo) and see [LGFilterView.h](./LGFilterView/LGFilterView.h)
+
+## Repos / Mirrors
+
+- [TRULAB](https://trulab.ru/LGLibs/LGFilterView)
+- [GitHub](https://github.com/LGLibs/LGFilterView)
+- [GitLab](https://gitlab.com/LGLibs/LGFilterView)
+- [Gitea](https://gitea.com/LGLibs/LGFilterView)
 
 ## License
 
-LGFilterView is released under the MIT license. See [LICENSE](https://raw.githubusercontent.com/Friend-LGA/LGFilterView/master/LICENSE) for details.
+Copyright (c) 2015 Grigorii Lutkov \<grigorii@lutkov.dev\></br>
+Licensed under the [MIT License](./LICENSE)
