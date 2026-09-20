@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name = 'LGFilterView'
     s.version = '1.0.4'
-    s.platform = :ios, '6.0'
+    s.platform = :ios, '12.0'
     s.license = 'MIT'
     s.homepage = 'https://github.com/LGLibs/LGFilterView'
     s.author = { 'Grigorii Lutkov' => 'grigorii@lutkov.dev' }
